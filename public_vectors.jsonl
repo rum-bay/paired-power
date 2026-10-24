@@ -1,0 +1,5 @@
+{"id":"t-paired/a-priori","input":{"test":"t-paired","mode":"a-priori","tails":1,"dz":0.5,"alpha":0.05,"power":0.95},"expected":{"ncp":3.3541020,"critical_t":1.6802300,"df":44,"n_total":45,"actual_power":0.9512400}}
+{"id":"t-paired/post-hoc","input":{"test":"t-paired","mode":"post-hoc","tails":1,"dz":0.5,"alpha":0.05,"n_total":45},"expected":{"ncp":3.3541020,"critical_t":1.6802300,"df":44,"power":0.9512400}}
+{"id":"t-paired/compromise","input":{"test":"t-paired","mode":"compromise","tails":1,"dz":0.5,"beta_alpha_ratio":1,"n_total":45},"expected":{"ncp":3.3541020,"critical_t":1.6864315,"df":44,"alpha":0.0493959,"beta":0.0493959,"power":0.9506041}}
+{"id":"t-paired/criterion","input":{"test":"t-paired","mode":"criterion","tails":1,"dz":0.5,"power":0.95,"n_total":45},"expected":{"ncp":3.3541020,"critical_t":1.6922637,"df":44,"alpha":0.0488334}}
+{"id":"t-paired/sensitivity","input":{"test":"t-paired","mode":"sensitivity","tails":1,"alpha":0.05,"power":0.95,"n_total":45},"expected":{"ncp":3.3417616,"critical_t":1.6802300,"df":44,"dz":0.4981604}}
